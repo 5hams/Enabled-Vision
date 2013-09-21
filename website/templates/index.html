@@ -1,11 +1,343 @@
 <!DOCTYPE html>
-{% load staticfiles %}
-<html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="{% static "bootstrap/css/bootstrap.min.css" %}"/>
-        <link rel="stylesheet" type="text/css" href="{% static "bootstrap/css/bootstrap-theme.min.css" %}"/>
-        <script src="{% static "bootstrap/js/jquery-1.10.2.min.js" %}"></script>
-        <script src="{% static "bootstrap/js/bootstrap.min.js" %}"></script>
-    </head>
-    <body>Hello, World!</body>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>Nathan Gao - Web Designer / Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="description" content="web developer portfolio">
+    <meta name="keyword" content="nathan mengyuan gao">
+    
+	<link href='http://fonts.googleapis.com/css?family=Roboto:100,700,900' rel='stylesheet' type='text/css'>
+    <!-- Main stylesheets -->
+    <link href="./css/responsive-nav.css" rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet">
+    <link href="./css/works.css" rel="stylesheet">
+	<!--[if IE 8]>
+	<style type="text/css">
+		input {line-height: 50px}
+	</style>
+	<![endif]-->
+	<!--[if lte IE 7]>
+		<link rel="stylesheet" type="text/css" href="./css/ie7orlower.css" />
+	<![endif]-->
+    
+    <script src="./javascript/modernizr.js"></script>
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./icons/favicon.ico" />
+  </head>
+
+  <body>
+  	<header id="fixed-header">
+    	<div id="navlogo">
+        	<a href="#home"><img src="./images/logo.png" class="smalllogo" /></a>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#works">Works</a><a href="#works" class="navhover" >Works</a></li>
+            <li><a href="#about">About</a><a href="#about" class="navhover" >About</a></li>
+            <li><a href="#contact">Contact</a><a href="#contact" class="navhover" >Contact</a></li>
+            <li><a href="http://blog.mengyuangao.com">Blog</a><a href="http://blog.mengyuangao.com" class="navhover" >Blog</a></li>
+          </ul>
+        </nav>
+        <div id="navlang">
+        	<a href="http://mengyuangao.com/zh/" class="langlink">ZH</a>
+        </div>
+    </header>
+    <section id="home" data-speed="2.5" data-type="background">
+    	<div class="container">
+        	<img src="./images/logo.png" class="largelogo" />
+            <nav id="subnav">
+            	<ul>
+                	<li><a href="#works">Works</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="http://blog.mengyuangao.com">Blog</a></li>
+                </ul>
+            </nav>
+            <br class="clearfix" />
+            <div id="headline">
+            	<h1>Hello! I'm <span class="bold">Nathan</span> Gao</h1>
+                <h3>I'm a web designer, front-end developer based in Toronto, Ontario.</h3>
+                <h3 class="visibleTablet">Welcome to my porfolio.</h3>
+            </div>
+        </div>
+        <div id="scrollindct">
+            <p>Scroll Down</p>
+            <img src="./images/scrolldownbtn.png" class="scrollBtn" />
+        </div>
+    </section>
+    
+	<section id="workloadbar">
+		<div id="loadbar_progress">
+		</div>
+	</section>
+	
+	<section id="workdetail">
+		
+	</section>
+    
+    <!--works section-->
+    <section id="works">
+		<section class="rightbox">
+			<h1 id="workstext" class="sectitle">Works</h1>
+		</section>
+		<section class="leftbox" id="work1">
+			<section class="previewdesc" id="work1desc">
+				<section class="descwrapper">
+					<h1>StockGaming</h1>
+					<p>Reponsive Website</p>
+				</section>
+			</section>
+		</section>
+		<section class="leftbox" id="work2">
+			<section class="previewdesc" id="work2desc">
+				<section class="descwrapper">
+					<h1>BOSN</h1>
+					<p>HTML5 Website</p>
+				</section>
+			</section>
+		</section>
+		<section class="leftbox" id="work3">
+			<section class="previewdesc" id="work3desc">
+				<section class="descwrapper">
+					<h1>Honda E-card</h1>
+					<p>Interactive Application</p>
+				</section>
+			</section>
+		</section>
+		<section class="leftbox" id="work4">
+			<section class="previewdesc" id="work4desc">
+				<section class="descwrapper">
+					<h1>The Chronicle</h1>
+					<p>Responsive Website</p>
+				</section>
+			</section>
+		</section>
+		<section class="leftbox" id="work5">
+			<section class="previewdesc" id="work5desc">
+				<section class="descwrapper">
+					<h1>Iraq War</h1>
+					<p>Parallax Scrolling</p>
+				</section>
+			</section>
+		</section>
+		<section class="leftbox" id="work6">
+			<section class="previewdesc" id="work6desc">
+				<section class="descwrapper">
+					<h1>Tunepop</h1>
+					<p>XHTML Website</p>
+				</section>
+			</section>
+		</section>
+		<section class="leftbox" id="work7">
+			<section class="previewdesc" id="work7desc">
+				<section class="descwrapper">
+					<h1>Lexus GS App</h1>
+					<p>Interactive Application</p>
+				</section>
+			</section>
+		</section>
+		<section class="leftbox" id="work8">
+			 <section class="previewdesc" id="work8desc">
+				<section class="descwrapper">
+					<h1>Nike Basketball</h1>
+					<p>HTML5 Microsite</p>
+				</section>
+			</section>
+		</section>
+		<br class="clearfix" />
+    </section>
+        
+        <!-- about section -->
+    <section id="about">
+       	<section id="quote">
+            <div class="wrapper">
+                 <h1 id="quotetext">Simplicity Is The Ultimate Sophistication.</h1>
+                 <h3 id="quotename">- Leonardo da Vinci </h3>
+            </div>
+        </section>
+        <section id="lefttitle">
+             <h1 class="abouttitle" id="abouttext">About</h1>
+        </section>
+        <section class="twoofthird">
+              <div id="mySwipe" class="swipe">
+                 <div class='swipe-wrap'>
+                    <div class="sliders">
+                    	<h1>Who I <span class="bold">AM</span></h1>
+                    	<p>I'm Nathan, my work consists of website, interaction, media content design and development. I graduated from Durham College, and my major was Multimedia Design. Web design and front-end development is what I do the best, and love the most. To me, nothing is more exciting than learning new stuff, and creating better websites with that knowledge. </p>
+                        <p>I'm currently on a short term contract for a web project, and it will end soon. So if you are looking for a motivated front-end developer, then let's talk!</p>
+                    </div>
+                    <div class="sliders">
+                    	<h1>What I <span class="bold">KNOW</span></h1>
+                    	<p>My skills for web development include: HTML(5), CSS(3), Javascript, PHP, jQuery, AngularJS, Ajax, XML, JSON, responsive web design, Facebook Graph API, Twitter REST API, Google Maps implementation.</p>
+                        <p>Other multimedia skills: Flash, Actionscript, video production, photography, print and graphic design. Contact me if you want to hear more.</p>
+                        <p>My best friends: Adobe Creative Suite, TextMate, Google Chrome, Github, pencil and paper.</p>
+                    </div>
+                    <div class="sliders">
+                    	<h1>How I <span class="bold">Work</span></h1>
+                        <p>Before doing anything, I always get to know my clients first. Every company has its own unique identity and style. Design is not only about creating pretty things, but also attracting the right audience.</p>
+                        <p>I like to keep my design simple, and clean. Creating something that is user friendly and effective is my priority. Apart from that, paying attention to details is my key to success.</p>
+                        <p>As a front-end developer, I enjoy playing with CSS to ensure development matches design. Other than that, solving all the problems, and finishing the job on time!</p>
+                    </div>
+                 </div>
+                 <img src="./images/left-arrow.jpg" class="leftarrow swipenav" onclick='mySwipe.prev()'/>
+                 <img src="./images/right-arrow.jpg" class="rightarrow swipenav" onclick='mySwipe.next()'/>
+                 <ul id='sliderbullet'>
+                  <li class='on'></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>  
+         </section>
+         <br class="clearfix" />
+    </section>
+    <section id="contact">
+    	<h1 id="contacttext">Say Hello!</h1>
+        <section class="formwrapper">
+            <form action="process.php" method="post" id="form">     
+				<input name="name" class="shortinput required" placeholder="First Name*">
+							
+				<input name="last" class="shortinput" placeholder="Last Name">
+                    
+				<input name="email" type="email" class="longinput required" placeholder="Your E-mail*">
+							
+				<textarea name="message" placeholder="Your Message*" class="required"></textarea>
+				<input id="submit" name="submit" type="submit" value="SUBMIT">
+                <div id="formnote">* Indicates required field</div>
+                <br class="clearfix" />
+			</form>
+         </section>  
+    </section>
+    <footer>
+    	<section class="socialwrap">
+    		<a href="http://facebook.com/mengyuan.gao.designer">
+            <section class="socialsec" id="facebook">
+                <img src="./images/facebookicon.png" class="socialicon" />
+                <div class="socialcover">
+                </div>
+            </section>
+            </a>
+            <a href="https://twitter.com/MengyuanGao">
+            <section class="socialsec" id="twitter">
+                <img src="./images/twittericon.png" class="socialicon" />
+                <div class="socialcover">
+                </div>
+            </section>
+            </a>
+            <a href="https://plus.google.com/104223132119497514871/">
+            <section class="socialsec" id="google">
+                <img src="./images/googleicon.png" class="socialicon" />
+                <div class="socialcover">
+                </div>
+            </section>
+            </a>
+            <a href="http://ca.linkedin.com/in/mengyuangao/">
+            <section class="socialsec" id="linkedin">
+                <img src="./images/linkedinicon.png" class="socialicon" />
+                <div class="socialcover">
+                </div>
+            </section>
+            </a>
+            <a href="http://instagram.com/gmy8911">
+            <section class="socialsec" id="instagram">
+                <img src="./images/instagramicon.png" class="socialicon" />
+                <div class="socialcover">
+                </div>
+            </section>
+            </a>
+            <br class="clearfix" />
+        </section>
+        <p>&copy;Nathan Gao  Trademarks Belong To Their Respective Owners</p>
+        <p>All Right Reserved.</p>
+    </footer>
+    <!--preloader-->
+    <section id="preloader">
+    	<section class="center">
+        	<img src="./images/gif-load.gif" class="loading-gif" />
+        	<div id="circularG">
+            <div id="circularG_1" class="circularG">
+            </div>
+            <div id="circularG_2" class="circularG">
+            </div>
+            <div id="circularG_3" class="circularG">
+            </div>
+            <div id="circularG_4" class="circularG">
+            </div>
+            <div id="circularG_5" class="circularG">
+            </div>
+            <div id="circularG_6" class="circularG">
+            </div>
+            <div id="circularG_7" class="circularG">
+            </div>
+            <div id="circularG_8" class="circularG">
+            </div>
+            </div>
+        	<h1 class="countdown">0%</h1>
+        </section>
+    </section>
+	<!--[if lte IE 7]>
+		<div id="browser-low">
+			<p>Oops, looks like your browser is outdated!</p>
+			<a href="mailto:gmy8911@gmail.com">SEND ME AN EMAIL</a>
+		</div>
+	<![endif]-->
+    
+  
+  	<!-- JAVASCRIPT LINKS -->
+    <script src="./javascript/jquery.min.js"></script>
+    <script src="./javascript/jquery-ui.min.js"></script>
+    <script src="./javascript/PxLoader.js"></script>
+    <script src="./javascript/PxLoaderImage.js"></script>
+    <script src="./javascript/swipe.js"></script>
+	<script src="./javascript/sly.js"></script>
+    <script src="./javascript/jquery.kinetic.js"></script>
+    <script src="./javascript/main.js"></script>
+    <script src="./javascript/responsive-nav.min.js"></script>
+    <script>
+      var navigation = responsiveNav("#nav", {
+        animate: true,       
+        insert: "after",    
+        open: function(){
+			$("#navlogo").animate({top: "200px"}, 400, 'easeOutQuad');
+		},   
+        close: function(){
+			$("#navlogo").animate({top: "0px"}, 400, 'easeOutQuad');
+		}  
+      });
+    </script>
+    
+    <script>
+   		var elem = document.getElementById('mySwipe');
+		window.mySwipe = Swipe(elem, {
+		  auto: 4000,
+		  continuous: true,
+		  callback: function(pos) {
+			  var i = bullets.length;
+			  while (i--) {
+				bullets[i].className = ' ';
+			  }
+			  bullets[pos].className = 'on';
+		
+			}
+		});
+		var bullets = document.getElementById('sliderbullet').getElementsByTagName('li');
+		
+		/* ie10 animation fix */
+		var doc = document.documentElement;
+		doc.setAttribute('data-useragent', navigator.userAgent);
+	</script>
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-37781904-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+  </body>
 </html>
